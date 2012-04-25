@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5599F39F1547F64E00BDAEA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5599F39E1547F64E00BDAEA2 /* UIKit.framework */; };
+		5599F3A11547F64E00BDAEA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5599F3A01547F64E00BDAEA2 /* Foundation.framework */; };
+		5599F3A31547F64E00BDAEA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5599F3A21547F64E00BDAEA2 /* CoreGraphics.framework */; };
+		5599F3A91547F64E00BDAEA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5599F3A71547F64E00BDAEA2 /* InfoPlist.strings */; };
+		5599F3AB1547F64E00BDAEA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5599F3AA1547F64E00BDAEA2 /* main.m */; };
+		5599F3AF1547F64E00BDAEA2 /* CircularPathAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5599F3AE1547F64E00BDAEA2 /* CircularPathAppDelegate.m */; };
+		5599F3B21547F64E00BDAEA2 /* CircularPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5599F3B11547F64E00BDAEA2 /* CircularPathViewController.m */; };
+		5599F3B51547F64E00BDAEA2 /* CircularPathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5599F3B31547F64E00BDAEA2 /* CircularPathViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5599F39A1547F64E00BDAEA2 /* CircularPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5599F39E1547F64E00BDAEA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5599F3A01547F64E00BDAEA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5599F3A21547F64E00BDAEA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5599F3A61547F64E00BDAEA2 /* CircularPath-Info.plist */ = {isa = PBXFileReference; path = "CircularPath-Info.plist"; sourceTree = "<group>"; };
+		5599F3A81547F64E00BDAEA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5599F3AA1547F64E00BDAEA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5599F3AC1547F64E00BDAEA2 /* CircularPath-Prefix.pch */ = {isa = PBXFileReference; path = "CircularPath-Prefix.pch"; sourceTree = "<group>"; };
+		5599F3AD1547F64E00BDAEA2 /* CircularPathAppDelegate.h */ = {isa = PBXFileReference; path = CircularPathAppDelegate.h; sourceTree = "<group>"; };
+		5599F3AE1547F64E00BDAEA2 /* CircularPathAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularPathAppDelegate.m; sourceTree = "<group>"; };
+		5599F3B01547F64E00BDAEA2 /* CircularPathViewController.h */ = {isa = PBXFileReference; path = CircularPathViewController.h; sourceTree = "<group>"; };
+		5599F3B11547F64E00BDAEA2 /* CircularPathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularPathViewController.m; sourceTree = "<group>"; };
+		5599F3B41547F64E00BDAEA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CircularPathViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5599F3971547F64D00BDAEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5599F39F1547F64E00BDAEA2 /* UIKit.framework in Frameworks */,
+				5599F3A11547F64E00BDAEA2 /* Foundation.framework in Frameworks */,
+				5599F3A31547F64E00BDAEA2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5599F38F1547F64B00BDAEA2 = {
+			isa = PBXGroup;
+			children = (
+				5599F3A41547F64E00BDAEA2 /* CircularPath */,
+				5599F39D1547F64E00BDAEA2 /* Frameworks */,
+				5599F39B1547F64E00BDAEA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5599F39B1547F64E00BDAEA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5599F39A1547F64E00BDAEA2 /* CircularPath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5599F39D1547F64E00BDAEA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5599F39E1547F64E00BDAEA2 /* UIKit.framework */,
+				5599F3A01547F64E00BDAEA2 /* Foundation.framework */,
+				5599F3A21547F64E00BDAEA2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5599F3A41547F64E00BDAEA2 /* CircularPath */ = {
+			isa = PBXGroup;
+			children = (
+				5599F3AD1547F64E00BDAEA2 /* CircularPathAppDelegate.h */,
+				5599F3AE1547F64E00BDAEA2 /* CircularPathAppDelegate.m */,
+				5599F3B01547F64E00BDAEA2 /* CircularPathViewController.h */,
+				5599F3B11547F64E00BDAEA2 /* CircularPathViewController.m */,
+				5599F3B31547F64E00BDAEA2 /* CircularPathViewController.xib */,
+				5599F3A51547F64E00BDAEA2 /* Supporting Files */,
+			);
+			path = CircularPath;
+			sourceTree = "<group>";
+		};
+		5599F3A51547F64E00BDAEA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5599F3A61547F64E00BDAEA2 /* CircularPath-Info.plist */,
+				5599F3A71547F64E00BDAEA2 /* InfoPlist.strings */,
+				5599F3AA1547F64E00BDAEA2 /* main.m */,
+				5599F3AC1547F64E00BDAEA2 /* CircularPath-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5599F3991547F64D00BDAEA2 /* CircularPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5599F3B81547F64E00BDAEA2 /* Build configuration list for PBXNativeTarget "CircularPath" */;
+			buildPhases = (
+				5599F3961547F64D00BDAEA2 /* Sources */,
+				5599F3971547F64D00BDAEA2 /* Frameworks */,
+				5599F3981547F64D00BDAEA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularPath;
+			productName = CircularPath;
+			productReference = 5599F39A1547F64E00BDAEA2 /* CircularPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5599F3911547F64C00BDAEA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5599F3941547F64C00BDAEA2 /* Build configuration list for PBXProject "CircularPath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5599F38F1547F64B00BDAEA2;
+			productRefGroup = 5599F39B1547F64E00BDAEA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5599F3991547F64D00BDAEA2 /* CircularPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5599F3981547F64D00BDAEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5599F3A91547F64E00BDAEA2 /* InfoPlist.strings in Resources */,
+				5599F3B51547F64E00BDAEA2 /* CircularPathViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5599F3961547F64D00BDAEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5599F3AB1547F64E00BDAEA2 /* main.m in Sources */,
+				5599F3AF1547F64E00BDAEA2 /* CircularPathAppDelegate.m in Sources */,
+				5599F3B21547F64E00BDAEA2 /* CircularPathViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5599F3A71547F64E00BDAEA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5599F3A81547F64E00BDAEA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5599F3B31547F64E00BDAEA2 /* CircularPathViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5599F3B41547F64E00BDAEA2 /* en */,
+			);
+			name = CircularPathViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5599F3B61547F64E00BDAEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5599F3B71547F64E00BDAEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5599F3B91547F64E00BDAEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularPath/CircularPath-Prefix.pch";
+				INFOPLIST_FILE = "CircularPath/CircularPath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5599F3BA1547F64E00BDAEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircularPath/CircularPath-Prefix.pch";
+				INFOPLIST_FILE = "CircularPath/CircularPath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5599F3941547F64C00BDAEA2 /* Build configuration list for PBXProject "CircularPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5599F3B61547F64E00BDAEA2 /* Debug */,
+				5599F3B71547F64E00BDAEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5599F3B81547F64E00BDAEA2 /* Build configuration list for PBXNativeTarget "CircularPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5599F3B91547F64E00BDAEA2 /* Debug */,
+				5599F3BA1547F64E00BDAEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5599F3911547F64C00BDAEA2 /* Project object */;
+}
