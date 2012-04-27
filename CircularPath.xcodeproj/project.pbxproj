@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554B69BB1548F9A5002A4FC7 /* CircularView.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B69BA1548F9A5002A4FC7 /* CircularView.m */; };
+		554B69C3154A59F1002A4FC7 /* CircularPathCustomize.m in Sources */ = {isa = PBXBuildFile; fileRef = 554B69C2154A59F1002A4FC7 /* CircularPathCustomize.m */; };
 		5599F39F1547F64E00BDAEA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5599F39E1547F64E00BDAEA2 /* UIKit.framework */; };
 		5599F3A11547F64E00BDAEA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5599F3A01547F64E00BDAEA2 /* Foundation.framework */; };
 		5599F3A31547F64E00BDAEA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5599F3A21547F64E00BDAEA2 /* CoreGraphics.framework */; };
@@ -18,17 +20,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		554B69B91548F9A5002A4FC7 /* CircularView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularView.h; sourceTree = "<group>"; };
+		554B69BA1548F9A5002A4FC7 /* CircularView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularView.m; sourceTree = "<group>"; };
+		554B69C1154A59F1002A4FC7 /* CircularPathCustomize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularPathCustomize.h; sourceTree = "<group>"; };
+		554B69C2154A59F1002A4FC7 /* CircularPathCustomize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularPathCustomize.m; sourceTree = "<group>"; };
 		5599F39A1547F64E00BDAEA2 /* CircularPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5599F39E1547F64E00BDAEA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5599F3A01547F64E00BDAEA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5599F3A21547F64E00BDAEA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5599F3A61547F64E00BDAEA2 /* CircularPath-Info.plist */ = {isa = PBXFileReference; path = "CircularPath-Info.plist"; sourceTree = "<group>"; };
+		5599F3A61547F64E00BDAEA2 /* CircularPath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircularPath-Info.plist"; sourceTree = "<group>"; };
 		5599F3A81547F64E00BDAEA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5599F3AA1547F64E00BDAEA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5599F3AC1547F64E00BDAEA2 /* CircularPath-Prefix.pch */ = {isa = PBXFileReference; path = "CircularPath-Prefix.pch"; sourceTree = "<group>"; };
-		5599F3AD1547F64E00BDAEA2 /* CircularPathAppDelegate.h */ = {isa = PBXFileReference; path = CircularPathAppDelegate.h; sourceTree = "<group>"; };
+		5599F3AC1547F64E00BDAEA2 /* CircularPath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircularPath-Prefix.pch"; sourceTree = "<group>"; };
+		5599F3AD1547F64E00BDAEA2 /* CircularPathAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularPathAppDelegate.h; sourceTree = "<group>"; };
 		5599F3AE1547F64E00BDAEA2 /* CircularPathAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularPathAppDelegate.m; sourceTree = "<group>"; };
-		5599F3B01547F64E00BDAEA2 /* CircularPathViewController.h */ = {isa = PBXFileReference; path = CircularPathViewController.h; sourceTree = "<group>"; };
+		5599F3B01547F64E00BDAEA2 /* CircularPathViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularPathViewController.h; sourceTree = "<group>"; };
 		5599F3B11547F64E00BDAEA2 /* CircularPathViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularPathViewController.m; sourceTree = "<group>"; };
 		5599F3B41547F64E00BDAEA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CircularPathViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +88,10 @@
 				5599F3B01547F64E00BDAEA2 /* CircularPathViewController.h */,
 				5599F3B11547F64E00BDAEA2 /* CircularPathViewController.m */,
 				5599F3B31547F64E00BDAEA2 /* CircularPathViewController.xib */,
+				554B69C1154A59F1002A4FC7 /* CircularPathCustomize.h */,
+				554B69C2154A59F1002A4FC7 /* CircularPathCustomize.m */,
+				554B69B91548F9A5002A4FC7 /* CircularView.h */,
+				554B69BA1548F9A5002A4FC7 /* CircularView.m */,
 				5599F3A51547F64E00BDAEA2 /* Supporting Files */,
 			);
 			path = CircularPath;
@@ -163,6 +173,8 @@
 				5599F3AB1547F64E00BDAEA2 /* main.m in Sources */,
 				5599F3AF1547F64E00BDAEA2 /* CircularPathAppDelegate.m in Sources */,
 				5599F3B21547F64E00BDAEA2 /* CircularPathViewController.m in Sources */,
+				554B69BB1548F9A5002A4FC7 /* CircularView.m in Sources */,
+				554B69C3154A59F1002A4FC7 /* CircularPathCustomize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +286,7 @@
 				5599F3BA1547F64E00BDAEA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,13 @@
 //
 
 #import "CircularPathViewController.h"
+#import "CircularPathCustomize.h"
+#import "CircularView.h"
+
+@interface CircularPathViewController() {
+    CircularPathCustomize *circularCustomize;
+}
+@end
 
 @implementation CircularPathViewController
 
@@ -16,12 +23,27 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+
+- (void)circularViewAnimated{
+    if (circularCustomize.progress < 0.75) {
+        circularCustomize.progress += 0.01;
+        [circularCustomize setNeedsDisplay];
+        NSLog(@"%.2f",circularCustomize.progress);
+    }
+    
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    circularCustomize = [CircularPathCustomize initCircularWithRect:CGRectMake(0, 0, 200, 200) progress:0.5 strokeColor:[UIColor whiteColor]]; 
+    
+    //[NSTimer scheduledTimerWithTimeInterval:1/2 target:self selector:@selector(circularViewAnimated) userInfo:nil repeats:YES];
+    
+    [self.view addSubview:circularCustomize];
 }
 
 - (void)viewDidUnload
